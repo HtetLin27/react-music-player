@@ -3,6 +3,8 @@
 
 import Player from "./components/Player";
 import Song from "./components/Song";
+import Library from './components/Library';
+
 
 //Import Util
 
@@ -21,6 +23,7 @@ function App() {
         setIsPlaying={setIsPlaying} 
         isPlaying={isPlaying} 
         currentSong={currentSong}/>
+      <Library songs={songs}/>
     </div>
   );
 }
