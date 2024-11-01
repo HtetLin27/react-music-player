@@ -56,7 +56,7 @@ function chillHop(){
             audio:'https://stream.chillhop.com/mp3/8749',
             color:["#205950","#2ab3bf"],
             id:uuidv4(),
-            active:true,
+            active:false,
            
         },
         {
